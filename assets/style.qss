@@ -1,0 +1,84 @@
+/* FRIDAY UI glassmorphism style */
+QMainWindow {
+  background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #020510, stop:1 #08172e);
+}
+
+QFrame#glassPanel {
+  background: rgba(14, 24, 44, 0.72);
+  border: 1px solid rgba(70, 140, 255, 0.22);
+  border-radius: 18px;
+}
+
+QLabel {
+  color: #d4e8ff;
+  font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+QLabel#titleLabel {
+  color: #8dd0ff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+QLabel#statusLabel {
+  color: #c2d9ff;
+  font-size: 12px;
+}
+
+QPushButton {
+  border: 1px solid rgba(139, 198, 255, 0.28);
+  border-radius: 14px;
+  background: rgba(28, 44, 73, 0.82);
+  color: #e7f2ff;
+  padding: 10px 16px;
+}
+
+QPushButton:hover {
+  background: rgba(35, 64, 110, 0.95);
+  border-color: rgba(107, 181, 255, 0.58);
+}
+
+QPushButton:pressed {
+  background: rgba(15, 28, 56, 0.95);
+}
+
+QLineEdit, QTextEdit {
+  background: rgba(8, 23, 50, 0.80);
+  border: 1px solid rgba(95, 171, 255, 0.18);
+  border-radius: 12px;
+  color: #e7f2ff;
+}
+
+QTextEdit {
+  padding: 12px;
+}
+
+QScrollBar:vertical {
+  background: transparent;
+  width: 10px;
+}
+
+QScrollBar::handle:vertical {
+  background: rgba(96, 170, 255, 0.45);
+  border-radius: 5px;
+}
+
+#orbFrame {
+  background: rgba(12, 23, 48, 0.45);
+  border: 1px solid rgba(96, 180, 255, 0.32);
+  border-radius: 230px;
+}
+
+#actionPanel QLabel {
+  color: #b8d6ff;
+  font-size: 11px;
+}
+
+#responseLabel {
+  color: #a9d1ff;
+  font-size: 13px;
+}
+
+#chatLog {
+  border: none;
+}
